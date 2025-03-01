@@ -1,5 +1,5 @@
 {
-  "id": "nodebb-plugin-nodemailer-smtp",
+  "id": "nodebbPluginNodemailerSmtp",
   "name": "SMTP Settings",
   "description": "Plugin for NodeBB allowing you to send e-mail via SMTP using the latest Nodemailer.",
   "url": "https://github.com/Kibet-mutai/nodebb-plugin-nodemailer-smtp",

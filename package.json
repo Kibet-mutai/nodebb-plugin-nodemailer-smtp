@@ -1,6 +1,6 @@
 {
-  "name": "nodebb-plugin-nodemailer-smtp",
-  "version": "1.0.1",
+  "name": "@kibet72/nodebb-plugin-nodemailer-smtp",
+  "version": "1.0.2",
   "description": "Plugin for NodeBB allowing you to send e-mail via SMTP using the latest Nodemailer.",
   "type": "module",
   "main": "index.js",
@@ -17,7 +17,7 @@
     "smtp",
     "nodemailer"
   ],
-  "author": "Baiqiang <qiyuuu@gmail.com>, Kibet <kibetem24@gmail.com>",
+  "author": "Kibet <kibetem24@gmail.com>",
   "license": "MIT",
   "repository": {
     "type": "git",
@@ -29,6 +29,9 @@
   "dependencies": {
     "nodemailer": "^6.9.0",
     "winston": "^3.8.2"
+  },
+  "nbbpm": {
+    "compatibility": "^3.x|| ^4.x"
   },
   "engines": {
     "node": ">=16.0.0"
