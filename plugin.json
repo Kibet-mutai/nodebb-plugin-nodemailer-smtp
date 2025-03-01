@@ -1,14 +1,23 @@
 {
   "id": "nodebb-plugin-nodemailer-smtp",
-  "url": "https://github.com/Baiqiang/nodebb-plugin-nodemailer-smtp",
   "name": "SMTP Settings",
-  "description": "Plugin for NodeBB allowing you to send e-mail via SMTP using LATEST Nodemailer.",
+  "description": "Plugin for NodeBB allowing you to send e-mail via SMTP using the latest Nodemailer.",
+  "url": "https://github.com/Kibet-mutai/nodebb-plugin-nodemailer-smtp",
   "library": "./index.js",
-  "templates": "./templates",
+  "templates": "templates",
   "hooks": [
-    { "hook": "filter:email.send", "method": "send" },
-    { "hook": "filter:admin.header.build", "method": "admin.menu" },
-    { "hook": "static:app.load", "method": "init"}
+    {
+      "hook": "filter:email.send",
+      "method": "send"
+    },
+    {
+      "hook": "filter:admin.header.build",
+      "method": "admin.menu"
+    },
+    {
+      "hook": "static:app.load",
+      "method": "init"
+    }
   ],
-  "compatibility": "^1.10.0"
+  "compatibility": "^1.19.0 || ^2.0.0 || ^3.0.0 || ^4.0.0"
 }
